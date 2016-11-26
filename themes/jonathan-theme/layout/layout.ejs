@@ -1,0 +1,651 @@
+<%- partial('_partial/head') %>
+<body>
+
+  <!--Loader-->
+  <div id="main_loader" style="display: none;">
+    <div id="loader">
+      <div></div>
+    </div>
+  </div>
+  <!--End Loader-->
+
+  <!-- Side Navigation -->
+  <nav class="cd-side-navigation sidebar left" style="left: 0px;">
+    <ul>
+      <li>
+        <a href="index.html" class="selected">
+          <span class="home_icon"></span>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="resumo.html">
+          <span class="resume_icon"></span>
+          <span>Resumo</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="portfolio_icon"></span>
+          <span>Portfolio</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="blog_icon"></span>
+          <span>Blog</span>
+        </a>
+      </li>
+      <li>
+        <a data-toggle="modal" data-target="#contato">
+          <span class="cont_icon"></span>
+          <span>Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- End Navigation -->
+
+  <!--Mobile Menu icon-->
+  <div id="sidebar-btn" class="sidebar-btn toggle_icon_block" data-action="toggle" data-side="left">
+    <div id="toggle_icon" class="toggle_icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!--End Mobile Menu icon-->
+
+  <!--Main-->
+  <main class="cd-main">
+    <!--Inner Main Section-->
+    <section class="cd-section index visible">
+
+      <!--Main Container-->
+      <div class="container home_container">
+        <div class="ptb-60">
+
+          <!--Intro -->
+          <div class="row valign-wrapper">
+            <div class="col-sm-6">
+              <div class="home_icon_block">
+                <!--Main Image-->
+                <img class="img img-responsive" src="/images/jonathan_oliveira.jpg" alt="Web Developer">
+                <!--Social icons-->
+                <div class="home_social_icon">
+                  <a href="https://www.facebook.com/jonathandso" target="_blank">
+                    <span class="facebook_icon"></span>
+                  </a>
+                  <a href="https://twitter.com/Jonathan_dSO" target="_blank">
+                    <span class="twitter_icon"></span>
+                  </a>
+                  <a href="https://br.linkedin.com/in/jonathan-oliveira" target="_blank">
+                    <span class="linkedin_icon"></span>
+                  </a>
+                </div>
+                <!--End Social icons-->
+              </div>
+            </div>
+            <div class="col-sm-6 home_author_name">
+              <div class="home_author_details">
+                <!--Main Name-->
+                <h1>Jonathan <span class="bolder">Oliveira</span></h1>
+                <h3>Web Developer / Web Design</h3>
+                <h4>
+                  <span class="available_icon"></span>Disponível para Freelancer
+                </h4>
+              </div>
+              <p class="home_para_hide">
+                Perito em desenvolvimento de sistemas e web sites. Utilizando como principais tecnologias o Java, HTML5, CSS3 e Jquery.
+              </p>
+              <p>
+                Atualmente ministro aulas no curso COTI Informática, local onde criei maior parte de minha formação tecnológica.
+              </p>
+              <div class="row valign-wrapper mb40">
+                <div class="col-sm-6 mob_center">
+                  <a class="btn btn-primary system_btn quick_btn" data-toggle="modal" data-target="#more_details">Perfil Resumido</a>
+                </div>
+                <div class="col-sm-6">
+              <div class="pull-right sign_img">
+                <img class="img img-responsive" src="/images/Signature.png" alt="Signature">
+              </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!--End Intro-->
+
+          <!--Some Facts-->
+          <div class="row">
+            <div class="col-sm-12 mb40">
+              <div>
+                <h2>Alguns <span class="bolder">fatos</span></h2>
+                <div class="col-sm-2 col-xs-6 text-center home_facts">
+                  <span class="coffee_icon"></span>
+                  <h5>Copos de café</h5>
+                  <span class="counter">919</span>
+                </div>
+                <div class="col-sm-2 col-xs-6 text-center home_facts">
+                  <span class="clock_icon"></span>
+                  <h5>Horas de códigos</h5>
+                  <span class="counter">2650</span>
+                </div>
+                <div class="col-sm-2 col-xs-6 text-center home_facts">
+                  <span class="beg_icon"></span>
+                  <h5>Negócios Próprio</h5>
+                  <span class="counter">2</span>
+                </div>
+                <div class="col-sm-2 col-xs-6 text-center home_facts">
+                  <span class="smile_icon"></span>
+                  <h5>Clientes Safisfeitos</h5>
+                  <span class="counter">15</span>
+                </div>
+                <div class="col-sm-2 col-xs-6 text-center home_facts">
+                  <span class="code_icon"></span>
+                  <h5>Linhas de código</h5>
+                  <span>+</span><span class="counter">99</span><span>mil</span>
+                </div>
+                <div class="col-sm-2 col-xs-6 text-center home_facts">
+                  <span class="file_icon"></span>
+                  <h5>Projetos completados</h5>
+                  <span class="counter">21</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Some Facts-->
+
+          <!--Bio-->
+          <h2>Biografia</h2>
+          <!--Personal info-->
+          <p class="mb40">
+              Java Developer, Web Design e Professor na COTI Informática, uma empresa que tem como missão construir em seus alunos as competências técnicas atualizadas e necessárias para o atual mercado de trabalho de TI.
+              <br/>
+              Apaixonado por tecnologia e pelo ensino.
+              <br/>
+              Depois de atuar por quase 3 anos no desenvolvimento web back-and, e depois mais 3 anos de experiência no desenvolvimento front-end, decidi embarcar como professor. 
+              Com um grande desejo de ensinar o que aprendi, me vejo num caminho que quanto mais ensino, mais aprendo.
+            </p>
+          <div class="row valign-wrapper mb40">
+            <!-- <div class="col-sm-5 author_bio_img">
+              <img class="img img-responsive" src="/images/home_author_bio.jpg" alt="Web Developer">
+            </div> -->
+            
+            <div class="col-sm-7">
+              <div class="scroll_page_table">
+                <table class="table table-responsive">
+                  <tbody>
+                  <tr>
+                    <th class="pb40">Nome</th>
+                    <th class="pb40">:</th>
+                    <td class="pb40">Jonathan Oliveira</td>
+                  </tr>
+                  <tr>
+                    <th class="pb40">Data de Nascimento</th>
+                    <th class="pb40">:</th>
+                    <td class="pb40">27/01/1991</td>
+                  </tr>
+                  <tr>
+                    <th class="pb40">E-mail</th>
+                    <th class="pb40">:</th>
+                    <td class="pb40"><a href="mailto:contato@jonathanoliveira.com.br" target="_top">contato@jonathanoliveira.com.br</a></td>
+                  </tr>
+                  <tr>
+                    <th class="pb40">Local</th>
+                    <th class="pb40">:</th>
+                    <td class="pb40">Rio de Janeiro</td>
+                  </tr>
+                  <tr>
+                    <th class="pb40">Telefone</th>
+                    <th class="pb40">:</th>
+                    <td class="pb40">+55 21 976182265</td>
+                  </tr>
+                  <tr>
+                    <th>Website</th>
+                    <th>:</th>
+                    <td><a href="http://www.salvationweb.com.br/" target="_blank">www.salvationweb.com.br</a></td>
+                  </tr>
+                  <tr>
+                    <th>Twitter</th>
+                    <th>:</th>
+                    <td><a href="https://twitter.com/Jonathan_dSO" target="_blank">@jonathan_dso</a></td>
+                  </tr>
+                  <tr>
+                    <th>Skype</th>
+                    <th>:</th>
+                    <td>Jonathan.00</td>
+                  </tr>
+                  <tr>
+                    <th>Linkedin</th>
+                    <th>:</th>
+                    <td><a href="https://br.linkedin.com/in/jonathan-oliveira" target="_blank">@jonathan-oliveira</a></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+          </div>
+          <!--End Personal info-->
+
+          <!--Services-->
+          <h2>Serviços que ofereço</h2>
+          <div class="row mb40">
+            <div class="offered_services">
+              <div class="col-sm-4 text-center">
+                <div class="offered_services_icon">
+                  <span class="management_icon"></span>
+                </div>
+                <h4 class="mtb20 system_font_color">Web Developer</h4>
+                <p>
+                  Desenvolvo sistemas web, usando como principal tecnologia o Java.
+                </p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <div class="offered_services_icon">
+                  <span class="designing_icon"></span>
+                </div>
+                <h4 class="mtb20 system_font_color">Web Design</h4>
+                <p>
+                  Desenvolvo sites usando como principal tecnologia o HTML5, CSS3 e Jquery.
+                </p>
+              </div>
+              <div class="col-sm-4 text-center">
+                <div class="offered_services_icon">
+                  <span class="gamepad_icon"></span>
+                </div>
+                <h4 class="mtb20 system_font_color">Game Devlopment</h4>
+                <p>
+                  Desenvolvo games utilizando como principal tecnologia o HTML5, CSS3 e Javascript. Utilizo também a ferramenta Construct 2.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--End Services offered-->
+
+          <!-- Btn-->
+          <div class="text-center">
+            <a class="btn system_btn mr25" data-toggle="modal" data-target="#contato">Contrate-me</a>
+            <a class="btn system_btn download_icon" href="cv/JonathanOliveira-Outubro-2016.pdf" target="_blank">
+              <span></span>Download CV
+            </a>
+          </div>
+          <!--End Btn-->
+
+        </div>
+      </div>
+      <!--End Main Container-->
+
+      <!--Footer-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 text-left">
+              <h6> Copyright © <span id="copyright-year">2016</span>. All rights reserved </h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End footer-->
+
+    </section>
+    <!--End Inner Main Section-->
+  </main>
+  <!--End Main-->
+
+  <!-- Quick Profile showcase Modal starts -->
+  <div class="modal fade" id="more_details">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Perfil Resumido</h4>
+        </div>
+        <div class="modal-body profile_modal_body">
+          <div class="row">
+            <div class="modal_details">
+              <ul class="modal_profile mb40">
+                <li>
+                  <img class="profile_pic img img-responsive" src="/images/jonathan-oliveira-modal.png" alt="home_avatar_thumb">
+                  <div>
+                    <h3>Jonathan Oliveira</h3>
+                    <h4>
+                      <span class="available_icon"></span>
+                      Disponível para freelancer
+                    </h4>
+                    <h4 class="working_hour"><span class="bolder">R$50,00</span> /hr</h4>
+                    <p>Perito em desenvolvimento de sistemas e web sites. Utilizando como principais tecnologias o Java, HTML5, CSS3 e Jquery.</p>
+                    <p class="modal_location mb20"><img class="img img-responsive" src="/images/location.png" alt="location">Rio de Janeiro, RJ</p>
+                    <div class="modal_profile_tag">
+                      <span>Java</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Desenvolvimento de Sites</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>MySql</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Javascript</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Banco de Dados</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>JSF</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>iReport</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Servlets</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>HTML5</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>CSS3</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>JQuery</span>
+                    </div>
+                    <div class="modal_profile_tag"> 
+                      <span>Json</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Bootstrap</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>WebServices</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>PL/SQL</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Spring Framework</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Wordpress</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Apache Maven</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>AngularJS</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Linux</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>REST</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Git e GitHub</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>UML</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Hibernate</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Web Devlopment</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>JSP</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>AJAX</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Microsoft Sql Server</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Microsoft Windows</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>SQL</span>
+                    </div>
+                    <div class="modal_profile_tag">
+                      <span>Eclipse</span>
+                    </div>
+                  </div>
+
+                </li>
+              </ul>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="modal_profile_bottom">
+              <div class="col-sm-6">
+                <div class="mb40">
+                  <h6 class="system_font_color">Histórico de trabalho</h6>
+                  <h5>20 Projetos completados</h5>
+                </div>
+                <div class="mb40">
+                  <h6 class="system_font_color">Disponibilidade</h6>
+                  <h5>30 horas/semana - Full time</h5>
+                </div>
+
+                <div class="mb40">
+                  <h6 class="system_font_color">Disponibilidade durante a semana</h6>
+                  <div class="availability_tags">
+                    <span>D</span>
+                    <span>S</span>
+                    <span>T</span>
+                    <span>Q</span>
+                    <span>Q</span>
+                    <span>S</span>
+                    <span>S</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="mb40">
+                  <h6 class="system_font_color">Língua</h6>
+                  <h5>Português, Inglês</h5>
+                </div>
+                <div class="mb30">
+                  <h6 class="system_font_color">Confira meus perfis freelancer</h6>
+                  <div class="freelance_acc_img">
+                    <img class="img img-responsive" src="/images/upwork.png" alt="upwork">
+                    <img class="img img-responsive" src="/images/behance.png" alt="behance">
+                    <img class="img img-responsive" src="/images/freelance.png" alt="freelance">
+                  </div>
+                </div>
+                <div class="mb40">
+                  <h6 class="system_font_color">Siga-me</h6>
+                  <div class="home_social_icons">
+                    <a href="https://www.facebook.com/jonathandso" target="_blank" class="mr5">
+                      <span class="fb"></span>
+                    </a>
+                    <a href="https://twitter.com/Jonathan_dSO" target="_blank" class="mr5">
+                      <span class="twt"></span>
+                    </a>
+                    <a href="https://br.linkedin.com/in/jonathan-oliveira" target="_blank">
+                      <span class="lin"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quick Profile showcase Modal ends -->
+
+  <!-- Quick Contato showcase Modal starts -->
+  <div class="modal fade" id="contato">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Contato</h4>
+        </div>
+        <div class="modal-body profile_modal_body">
+          <div class="row">
+            <div class="modal_details">
+              <div class="col-sm-6">
+              <h3>Entre em contato pelo formulário</h3>
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="first_name" placeholder="Seu nome">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="contact_email" placeholder="E-mail">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="subject" placeholder="Assunto">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <textarea class="form-control" rows="4" cols="50" id="contact_message" placeholder="Mensagem"></textarea>
+                  </div>
+                </div>
+                <div class="mob_center mb30">
+                  <button id="submit-form" class="btn system_btn submit-form">Enviar Mensagem</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-6">
+              <h3>... ou pelos contatos abaixo</h3>
+              <div class="cont_info">
+                <h5>
+                  <strong>E-mail :</strong>
+                  <span><a href="mailto:contato@jonathanoliveira.com.br" target="_top">contato@jonathanoliveira.com.br</a></span>
+                </h5>
+                <h5>
+                  <strong>Telefone :</strong>
+                  <span>(21) 976182265</span>
+                </h5>
+                <h5>
+                  <strong>Twitter :</strong>
+                  <span><a href="https://twitter.com/Jonathan_dSO" target="_blank">@jonathan_dso</a></span>
+                </h5>
+                <h5>
+                  <strong>Skype :</strong>
+                  <span>Jonathan.00</span>
+                </h5>
+                <h5>
+                  <strong>Facebook :</strong>
+                  <span><a href="https://www.facebook.com/jonathandso" target="_blank">jonathandso</a></span>
+                </h5>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quick Contato showcase Modal ends -->
+
+  <!-- Warning Section Starts -->
+  <!-- Older IE warning message -->
+  <!--[if lt IE 9]>
+  <div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+    <div class="iew-container">
+      <ul class="iew-download">
+        <li>
+          <a href="http://www.google.com/chrome/">
+            <img src="/images/browser/chrome.png" alt="chrome">
+            <div>Chrome</div>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.mozilla.org/en-US/firefox/new/">
+            <img src="/images/browser/firefox.png" alt="firefox">
+            <div>Firefox</div>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.opera.com">
+            <img src="/images/browser/opera.png" alt="opera">
+            <div>Opera</div>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.apple.com/safari/">
+            <img src="/images/browser/safari.png" alt="safari">
+            <div>Safari</div>
+          </a>
+        </li>
+        <li>
+          <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+            <img src="/images/browser/ie.png" alt="ie">
+            <div>IE (9 & above)</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+  </div>-->
+  <!--[endif]-->
+  <!-- Warning Section Ends -->
+
+  <!-- Required js -->
+  <script src="/js/jquery.2.2.3.min.js"></script>
+  <script src="/js/jquery.easing.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+
+  <!-- Mobile Sidebar menu js  -->
+  <script src="/js/jquery.sidebar.min.js"></script>
+
+  <!-- Counter js  -->
+  <script src="/js/jquery.counterup.js"></script>
+  <script src="/js/waypoints.min.js"></script>
+
+  <!-- Video pop-up js -->
+  <script src="/js/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom script js  -->
+  <script src="/js/script.js"></script>
+
+  <script type="text/javascript">
+
+    /*Magnific Pop-Up Js starts*/
+    $('#video_modal').magnificPopup({
+      type: 'iframe',
+      closeOnBgClick: false,
+      iframe: {
+        markup: '<div class="mfp-iframe-scaler">'+
+        '<div class="mfp-close"></div>'+
+        '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+        '<div class="mfp-title">Some caption</div>'+
+        '</div>'
+      },
+      callbacks: {
+        markupParse: function(template, values, item) {
+          values.title = item.el.attr('title');
+        }
+      },
+      removalDelay: 300,
+      mainClass: 'mfp-fade'
+    });
+    /*Magnific Pop-Up Js ends*/
+
+    /*Counter Js Starts*/
+
+    $('.counter').counterUp({
+      delay: 10, // the delay time in ms
+      time: 900 // the speed time in ms
+    });
+    /*Counter Js Ends*/
+
+  </script>
+
+</body>
+</html>
